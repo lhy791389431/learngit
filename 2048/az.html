@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="ff.css" type="text/css" rel="stylesheet" />
+    <script type="text/JavaScript" src="myScript.js"></script>
+   
+  </head>
+<body>
+<h2>JavaScript 对象</h2>
+<div class="container">
+  <header>
+    <h2>聊天机器人小二黑</h2>
+  </header>
+
+  <ul class="message-list" id="messageList">
+    <li class="message-list__item message-list__item-robot">
+      <div>
+        您好，小主人，我是聊天机器人小二黑，赶快和我聊天试试吧！
+      </div>
+    </li>
+    <li class="message-list__item message-list__item-user">
+      <div>
+        吃了吗？
+      </div>
+    </li>
+    <li class="message-list__item message-list__item-robot">
+      <div>
+        吃过拉你呢
+      </div>
+    </li>
+    <li class="message-list__item message-list__item-user">
+      <div>
+        还没有
+      </div>
+    </li>
+  </ul>
+
+  <div class="send-message">
+    <textarea id="inputArea"></textarea>
+    <button id="sendMsgButton" onclick="handleSendMsg()">发送</button>
+  </div>
+</div>
+</body>
+</html>
